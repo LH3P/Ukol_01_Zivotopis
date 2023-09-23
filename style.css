@@ -1,12 +1,27 @@
 header {
-    color: darkolivegreen;
-    background-color:darkseagreen;
-    
-
+    padding: 100px 20px;
+    background-image: url(obrazky/Header.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.motto {
+    color: #3a5a40;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    background-position: center;
+    padding: 0%;
+}
+.MeBaby {
+        width: 200px;
+        border-top-left-radius: 30%;
+        float: right;
+        margin: 0 30px 30px 0 ;   
 }
 body {
-    color: darkolivegreen;
-    background-color:darkseagreen;
+    color: #344e41;
+    background-color:#a3b18a;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 20px;
     line-height: 1.5;
@@ -18,18 +33,33 @@ body {
     float: left;
     margin: 0 30px 30px 0 ;
 }
-h1,
-h2
+h2,
 h3 {
-    color: darkgreen;
+    color: #344e41; 
+}
 
-    
-
+h1{
+    font-size: 60px;
+    text-align: center;
+    color:#dad7cd;
+    margin: 30px;
+    text-shadow: 0 3px 10px rgb(4, 37, 40)
+}
+section {
+    padding: 50px 15%;
+    overflow: auto;
 }
 .footer {
-    background-color :gray;
-    color:antiquewhite;
+    background-color :#3a5a40;
+    color:#dad7cd;
     text-align: center;
     padding: 20px 0;
+}
+
+.LastMinute,
+.NomadVibe,
+.HobbiesAndFamily {
+    background-color: #dad7cd;
+
 }
     
