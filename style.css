@@ -1,0 +1,35 @@
+header {
+    color: darkolivegreen;
+    background-color:darkseagreen;
+    
+
+}
+body {
+    color: darkolivegreen;
+    background-color:darkseagreen;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+.picture-me {
+    width: 200px;
+    border-top-right-radius: 30%;
+    float: left;
+    margin: 0 30px 30px 0 ;
+}
+h1,
+h2
+h3 {
+    color: darkgreen;
+
+    
+
+}
+.footer {
+    background-color :gray;
+    color:antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+}
+    
