@@ -1,5 +1,5 @@
 header {
-    padding: 100px 20px;
+    padding: 60px 10px;
     background-image: url(obrazky/Header.JPG);
     background-repeat: no-repeat;
     background-position: center;
@@ -10,15 +10,19 @@ header {
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
-    background-position: center;
-    padding: 0%;
+    padding-top: 10px;
+    text-align: center;
 }
-.MeBaby {
-        width: 200px;
-        border-top-left-radius: 30%;
-        float: right;
-        margin: 0 30px 30px 0 ;   
+.menu {
+    font-size: 18px;
+    margin: 120px 0;
 }
+.menu a:hover,
+.menu a:focus,
+.menu a:active{
+    background-color:#dad7cd;
+}
+
 body {
     color: #344e41;
     background-color:#a3b18a;
@@ -31,19 +35,36 @@ body {
     width: 200px;
     border-top-right-radius: 30%;
     float: left;
-    margin: 0 30px 30px 0 ;
+    margin: 0 60px 0 20px ;
+    border: 2px solid #3a5a40;
+}
+.MeBaby {
+    width: 200px;
+    border-top-left-radius: 30%;
+    float: right;
+    margin: 0 30px 0px 30px;  
+    border: 2px solid #3a5a40; 
+}
+.MeBoy {
+    width: 200px;
+    border-top-right-radius: 30%;
+    float: left;
+    margin: 35px 30px 30px 0 ; 
+    border: 2px solid #3a5a40;  
 }
 h2,
-h3 {
+h3,
+a {
     color: #344e41; 
+    font-style: italic;
 }
 
 h1{
     font-size: 60px;
     text-align: center;
     color:#dad7cd;
-    margin: 30px;
-    text-shadow: 0 3px 10px rgb(4, 37, 40)
+    margin: 20px;
+    text-shadow: 0px 5px 12px rgba(0, 0, 0, 0.7);
 }
 section {
     padding: 50px 15%;
@@ -55,11 +76,17 @@ section {
     text-align: center;
     padding: 20px 0;
 }
-
 .LastMinute,
 .NomadVibe,
-.HobbiesAndFamily {
+.Contact {
     background-color: #dad7cd;
+    overflow: auto;
 
 }
-    
+.HobbiesAndFamily img
+    {
+        width: 32%;
+        border-radius: 10px;
+        border: 2px solid #3a5a40;
+    }
+      
